@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* WEBSITE FONTS
+ * -------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Open+Sans&display=swap');
+
+h1 {
+    font-family: 'Metamorphous', cursive;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}

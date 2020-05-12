@@ -16,12 +16,21 @@
 </template>
 
 <script>
+import { bookData } from './bookData.js';
+
 export default {
   name: 'app',
   components: {},
   data: function() {
     return {
-      links: ['home', 'hz', 'hz2', 'hz3', 'about']
+      bookData: bookData,
+      links: [
+        'home',
+        'hoffnungslose ziele',
+        'hoffnungslose ziele II',
+        'hoffnungslose ziele III',
+        'about'
+      ]
     };
   }
 };

@@ -4,10 +4,100 @@
  * -------------------------- */
  @import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Open+Sans&display=swap');
 
+ #app,header
+ {
+     text-align:center
+ }
+
 h1 {
     font-family: 'Metamorphous', cursive;
+    text-align: 'center';
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    padding: 0px;
+    background: #1f1923;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #ffffcc;
+}
+
+.book-title {
+    font-family: 'Metamorphous', cursive;
+}
+
+nav ul
+{
+    list-style-type:none
+}
+
+nav ul li
+{
+    display:inline-block
+}
+
+nav ul li a:active,nav ul li a:hover,nav ul li a:link,nav ul li a:visited
+{
+    text-transform:capitalize;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    color:#05ed94;
+}
+
+nav ul li a:hover
+{
+    background-color:#027549;
+    color:#fff;
+    text-decoration:none
+}
+
+nav ul li a.router-link-active:active,nav ul li a.router-link-active:hover,nav ul li a.router-link-active:link,nav ul li a.router-link-active:visited
+{
+    text-decoration:none;
+    color:#111;
+    background-color:#fff;
+    cursor:inherit
+}
+
+.nav:active
+{
+    text-transform:capitalize;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    color:#05ed94;
+}
+
+.nav:hover
+{
+    background-color:#05ed94;
+    color:#fff;
+    text-decoration:none
+}
+
+.nav:active
+{
+    text-decoration:none;
+    color:#111;
+    background-color:#fff;
+    cursor:inherit
+}
+
+img
+{
+    display: block;
+    width: 100%;
+}
+
+a
+{
+    color: #05ed94;
+}
+
+a:visited
+{
+    color: #027549;
 }

@@ -2,7 +2,7 @@ export const characterData = [
     {
         id: 'anna-strehl',
         name: 'Anna Maria Strehl',
-        image: './assets/images/ANNA MARIA STREHL.jpg',
+        image: 'ANNA MARIA STREHL.jpg',
         height: '5’5” (165 cm)',
         hair_color: 'Chocolate-brown',
         eye_color: 'Blue',
@@ -14,7 +14,7 @@ export const characterData = [
     {
         id: 'gustav-strehl-2',
         name: 'Gustav August Strehl',
-        image: './assets/images/GUSTAV STREHL HZ2.jpg',
+        image: 'GUSTAV STREHL HZ2.jpg',
         height: '5’9” (177 cm)',
         hair_color: 'Ash-blonde',
         eye_color: 'Grey',
@@ -26,7 +26,7 @@ export const characterData = [
     {
         id: 'alina-1',
         name: 'Alina (formerly Christine Gauger)',
-        image: './assets/images/ALINA.jpg',
+        image: 'ALINA.jpg',
         height: '5’6” (167.5 cm)',
         hair_color: 'Platinum-blonde',
         eye_color: 'Green',
@@ -38,7 +38,7 @@ export const characterData = [
     {
         id: 'metia-2',
         name: 'Metia',
-        image: './assets/images/METIA HZ2.jpg',
+        image: 'METIA HZ2.jpg',
         height: '5’7” (170 cm)',
         hair_color: 'Dirty-blonde',
         eye_color: 'Grey (when in her Transfigured Form)',
@@ -50,7 +50,7 @@ export const characterData = [
     {
         id: 'milan',
         name: 'Mīlan',
-        image: './assets/images/MILAN.jpg',
+        image: 'MILAN.jpg',
         height: '5’9” (177 cm)',
         hair_color: 'Blonde',
         eye_color: 'Grey',

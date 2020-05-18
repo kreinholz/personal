@@ -2,7 +2,7 @@ export const characterData = [
     {
         id: 'anna-diana',
         name: 'Anna Diana (born Anna Maria Veller)',
-        image: './assets/images/ANNA DIANA.jpg',
+        image: 'ANNA DIANA.jpg',
         height: '5’5” (165 cm)',
         hair_color: 'Chocolate-brown',
         eye_color: 'Blue',
@@ -14,7 +14,7 @@ export const characterData = [
     {
         id: 'alina-2',
         name: 'Alina (formerly Christine Gauger)',
-        image: './assets/images/ALINA.jpg',
+        image: 'ALINA.jpg',
         height: '5’6” (167.5 cm)',
         hair_color: 'Platinum-blonde',
         eye_color: 'Green',
@@ -26,7 +26,7 @@ export const characterData = [
     {
         id: 'metia-3',
         name: 'Metia',
-        image: './assets/images/METIA HZ2.jpg',
+        image: 'METIA HZ2.jpg',
         height: '5’7” (170 cm)',
         hair_color: 'Dirty-blonde',
         eye_color: 'Grey',
@@ -38,7 +38,7 @@ export const characterData = [
     {
         id: 'kevin',
         name: 'Kevin Yamashita Reinholz',
-        image: './assets/images/KEVIN.jpg',
+        image: 'KEVIN.jpg',
         height: '5’9” (177 cm)',
         hair_color: 'Dark Brown',
         eye_color: 'Dark Brown',
@@ -50,7 +50,7 @@ export const characterData = [
     {
         id: 'julia',
         name: 'Julia Diana Gauger',
-        image: './assets/images/JULIA DIANA GAUGER.jpg',
+        image: 'JULIA DIANA GAUGER.jpg',
         height: '5’7” (170 cm)',
         hair_color: 'Brown',
         eye_color: 'Grey',
@@ -62,7 +62,7 @@ export const characterData = [
     {
         id: 'amy-strehl',
         name: 'Amy Maria Strehl',
-        image: './assets/images/AMY MARIA STREHL.jpg',
+        image: 'AMY MARIA STREHL.jpg',
         height: '5’6” (168 cm)',
         hair_color: 'Brown',
         eye_color: 'Blue',
@@ -74,7 +74,7 @@ export const characterData = [
     {
         id: 'luna',
         name: 'Luna',
-        image: './assets/images/LUNA.jpg',
+        image: 'LUNA.jpg',
         height: '5’7” (170 cm)',
         hair_color: 'Dirty-blonde',
         eye_color: 'Blue',
@@ -86,7 +86,7 @@ export const characterData = [
     {
         id: 'celeste',
         name: 'Celeste',
-        image: './assets/images/CELESTE.jpg',
+        image: 'CELESTE.jpg',
         height: '5’9” (177 cm)',
         hair_color: 'Black',
         eye_color: 'Lavender',
@@ -98,7 +98,7 @@ export const characterData = [
     {
         id: 'naamah',
         name: 'Naamah',
-        image: './assets/images/NAAMAH.jpg',
+        image: 'NAAMAH.jpg',
         height: '5’11” (180 cm)',
         hair_color: 'Blonde',
         eye_color: 'Ice blue',

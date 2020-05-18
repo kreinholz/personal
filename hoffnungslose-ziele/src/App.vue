@@ -16,14 +16,11 @@
 </template>
 
 <script>
-import { bookData } from './bookData.js';
-
 export default {
   name: 'app',
   components: {},
   data: function() {
     return {
-      bookData: bookData,
       links: [
         'home',
         'hoffnungslose ziele',

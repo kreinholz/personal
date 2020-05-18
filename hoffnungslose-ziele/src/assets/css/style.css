@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-/* WEBSITE FONTS
- * -------------------------- */
+/* WEBSITE FONTS */
  @import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Open+Sans&display=swap');
 
  #app,header
@@ -86,10 +85,28 @@ nav ul li a.router-link-active:active,nav ul li a.router-link-active:hover,nav u
     cursor:inherit
 }
 
-img
+@media only screen and (max-width: 600px)
 {
-    display: block;
-    width: 100%;
+    img
+    {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 601px)
+{
+    img
+    {
+        display: block;
+        width: 50%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 a
@@ -100,4 +117,37 @@ a
 a:visited
 {
     color: #027549;
+}
+
+.character {
+    clear: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+}
+
+.imageCell {
+    background-color: white;
+    float: left;
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.characterDetails {
+    font-family: garamond;
+    background-color: white;
+    padding: 4px;
+    color: black;
+    width: 50%;
+    text-align: left;
+}
+
+.characterPortrait {
+    max-width: 300px;
+}
+
+.synopsis {
+    text-align: left;
 }

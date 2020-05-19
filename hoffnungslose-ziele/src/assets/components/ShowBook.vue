@@ -1,7 +1,7 @@
 <template>
   <div v-if='book'>
     <img :alt='"Cover image for " + book.title' :src='require("./../images/" + book.cover)' />
-    <p class='synopsis'>{{ book.synopsis }}</p>
+    <p class='synopsis' v-for='synopsisPara in synopsis' :key='synopsisPara'>{{ synopsisPara }}</p>
     <h2 v-if='reviews'>Reviews</h2>
     <img
       v-for='review in reviews'
@@ -24,7 +24,8 @@ export default {
   data: function() {
     return {
       reviews: this.book.reviews,
-      stores: this.book.purchase
+      stores: this.book.purchase,
+      synopsis: this.book.synopsis
     };
   }
 };

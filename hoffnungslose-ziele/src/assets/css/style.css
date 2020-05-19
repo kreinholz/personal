@@ -151,3 +151,7 @@ a:visited
 .synopsis {
     text-align: left;
 }
+
+.centered {
+    text-align: center;
+}

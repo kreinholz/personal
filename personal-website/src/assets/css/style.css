@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* WEBSITE FONTS */
+ @import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans&family=Metamorphous&display=swap');
+ #app,header
+ {
+     text-align:center
+ }
+
+h1, h2 {
+    font-family: 'Karla';
+    text-align: 'center';
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    padding: 0px;
+    background: #d7dbd8;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #1f1923;
+}
+
+.book-title {
+    font-family: 'Metamorphous', cursive;
+}
+
+nav ul
+{
+    list-style-type:none
+}
+
+nav ul li
+{
+    display:inline-block
+}
+
+nav ul li a:active,nav ul li a:hover,nav ul li a:link,nav ul li a:visited
+{
+    text-transform:capitalize;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    color:#2f3d94
+}
+
+nav ul li a:hover
+{
+    background-color:#2139cf;
+    color:#fff;
+    text-decoration:none
+}
+
+nav ul li a.router-link-active:active,nav ul li a.router-link-active:hover,nav ul li a.router-link-active:link,nav ul li a.router-link-active:visited
+{
+    text-decoration:none;
+    color:#111;
+    background-color:#fff;
+    cursor:inherit
+}
+
+.nav:active
+{
+    text-transform:capitalize;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    color:#2f3d94;
+}
+
+.nav:active
+{
+    text-decoration:none;
+    color:#999799;
+    background-color:#fff;
+    cursor:inherit
+}
+
+@media only screen and (max-width: 600px)
+{
+    img
+    {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 601px)
+{
+    img
+    {
+        display: block;
+        width: 50%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+a
+{
+    color: #6116c9;
+}
+
+a:visited
+{
+    color: #500a57;
+}
+
+.synopsis {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}

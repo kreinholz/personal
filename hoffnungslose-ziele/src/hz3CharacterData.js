@@ -45,7 +45,7 @@ export const characterData = [
         blood_type: 'B (Rh Positive)',
         birth_date: '31 March 1981.',
         relationships: 'Descendant of Mīlan and the mortal Emilie Reinholz. Watched (and contacted) by Metia, as well as Julia, who believes him to be the reincarnation of her brother Mīlan.',
-        additional_info: 'Fully mortal man, in spite of descent from Metia. Afflicted by a debilitating chronic illness. Believed to be the reincarnation of Mīlan, who was killed by Peckols in 1916. However, he has no memories of this or any other purported past life. Contacted first by Metia, then by Anna Diana, and dutifully transcribed/compiled the records of their previous adventures.'
+        additional_info: 'Fully mortal man, in spite of descent from Metia. Mistaken for the reincarnation of Mīlan, who was killed by Peckols in 1916. Contacted first by Metia, then by Anna Diana, and dutifully transcribed/compiled the records of their previous adventures.'
     },
     {
         id: 'julia',
@@ -82,6 +82,18 @@ export const characterData = [
         birth_date: '4 May 1977',
         relationships: 'Daughter of Anna Diana and Metia (conceived through the use of magic). Twin half-sister (fraternal) of Amy, and half-sister of Mīlan and Julia.',
         additional_info: 'One of the Old Gods, known by various names throughout human history including Selene and Luna. She was killed during the war between the Old Gods and the “partisans,” and reincarnated as the demi-goddess daughter of Metia and Anna Diana after Metia magically implanted her own seed in Anna Diana’s womb while helping the latter to conceive Amy. Luna is outgoing and flamboyant, but also a brilliant physicist who seeks to explain magical phenomena in scientific terms.'
+    },
+    {
+        id: 'milan',
+        name: 'Mīlan',
+        image: 'MILAN.jpg',
+        height: '5’9” (177 cm)',
+        hair_color: 'Blonde',
+        eye_color: 'Grey',
+        blood_type: 'B (Rh Positive)',
+        birth_date: '13 October 1867, but born outside of time in the realm of the Old Gods, where he spent the first 10 years of his life.  As a result, he has a “constructive” birth date of 13 October 1857.',
+        relationships: 'Son of Gustav Strehl and Metia. Half-brother of Julia, Amy, and Luna, and distant ancestor of Kevin.',
+        additional_info: 'Mīlan was presumed to have died after he took a killing curse from the God of Death intended for his mother in 1916. Although mortal, he is visible simultaneously in both the Visible (material) World and the Invisible (spiritual) World, and imbued with magical abilities primarily relating to fire.  Unlike other mortal users of magic, he does not require the aid of a familiar spirit to work his magic.'
     },
     {
         id: 'celeste',
